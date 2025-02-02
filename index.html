@@ -1,11 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Sharing</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">
+                <img src="images/Icon Logo Normal.svg" alt="Logo Car Sharing">&nbsp;
+                <p>Car&nbsp;<span>Sharing</span></p>
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <article class="banner" id="home">
+        <div class="container">
+            <h1>Car Sharing
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque odio, nihil optio temporibus libero assumenda possimus natus reiciendis facere nostrum, vel distinctio illo perspiciatis, a iure rem incidunt velit perferendis.
+            </p>
+            <section class="buttons">
+                <a href="#"><button class="btn-1">Share a car</button></a>
+                <a href="#"><button class="btn-2">Key features</button></a>
+            </section>
+            <div class="icon-arrow"><a href="#service"><img src="images/Icon Arrow Down.svg" alt="icon arrow"></a></div>
+        </div>
+    </article>
+    <article class="main_content" id="blog">
+        <div class="container">
+            <div class="main-title">blog</div>
+            <article class="main_content_sections">
+            <section class="main-content-1">
+                <img src="images/photo1.png">
+                <h2>Lorem ipsum sit dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="main_content-btn">READ MORE</button>
+            </section>
+            <section class="main-content-2">
+                <img src="images/photo2.png">
+                <h2>Lorem ipsum sit dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="main_content-btn">READ MORE</button>
+            </section>
+            <section class="main-content-3">
+                <img src="images/photo3.png">
+                <h2>Lorem ipsum sit dolor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="main_content-btn">READ MORE</button>
+            </section>
+            </article>
+        </div>
+    </div>
+    </article>
+    <article class="four_sections" id="service">
+        <div class="container">
+            <div class="main-title main-title-grey">Service</div>
+            <article class="four_sections_content">
+                <section class="four_sections_content-1">
+                    <img src="images/mini1.png">
+                    <h2>Lorem ipsum sit dolor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="main_content-btn four_sections-btn">READ MORE</button>
+                </section>
+                <section class="four_sections_content-2">
+                    <img src="images/mini2.png">
+                    <h2>Lorem ipsum sit dolor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="main_content-btn four_sections-btn">READ MORE</button>
+                </section>
+                <section class="four_sections_content-3">
+                    <img src="images/mini3.png">
+                    <h2>Lorem ipsum sit dolor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="main_content-btn four_sections-btn">READ MORE</button>
+                </section>
+                <section class="four_sections_content-4">
+                    <img src="images/mini4.png">
+                    <h2>Lorem ipsum sit dolor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="main_content-btn four_sections-btn">READ MORE</button>
+                </section>
+                </article>
+        </div>
+    </article>
+    <article class="contact" id="contact">
+        <div class="container">
+            <div class="main-title">Contact</div>
+            <section class="main_contact">
+                <img src="images/Form Photo.png">
+            <form>
+                <input type="text" id="name" placeholder="Type your name">
+                <input type="e-mail" id="e-mail" placeholder="Type your e-mail">
+                <input type="message" id="message" placeholder="Type your message">
+                <label class="checkbox">
+                    <input type="checkbox">
+                    <span></span>
+                    I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                  </label>
+                <button type="submit">Send</button>
+            </form>
+            </section>
+        </div>
+    </article>
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">
+                <img src="images/Icon Logo Normal.svg" alt="Logo Car Sharing">
+                <p>Car&nbsp;<span>Sharing</span></p>
+                </a>
+            </div>
+           </div>
+        <section class="footer_nav">
+            <ul class="footer_nav-list-1">
+                <li>HOME PAGE</li>
+                <li>ABOUT US</li>
+                <li>GALLERY</li>
+                <li>SHARE REGULATION</li>
+            </ul>
+            <ul class="footer_nav_list-2">
+                <li>PRICE</li>
+                <li>OUR FLEET</li>
+                <li>OUR CLIENTS</li>
+                <li>CONTACT</li>
+            </ul>
+            <span>Copyright. &copy; A. Sobczyk</span>
+         </section>
+    </footer>
 </body>
 </html>
