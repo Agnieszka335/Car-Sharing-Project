@@ -455,6 +455,7 @@ footer img {
 .footer_nav-list-1 li,
 .footer_nav_list-2 li {
   padding: 5px;
+  text-transform: uppercase;
 }
 .footer_nav_list-2 li {
   margin: 0 200px;
