@@ -12,6 +12,10 @@
 .container {
   max-width: 1088px;
   margin: 0 auto;
+
+  @media screen and (max-width: 1160px) {
+    width: 100%;
+  }
 }
 body {
   font-family: var(--main-font);
@@ -105,6 +109,10 @@ header span {
   justify-content: space-between;
   align-items: center;
   height: 88px;
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 }
 .nav-list li {
   padding: 20px;
@@ -119,6 +127,12 @@ header span {
   cursor: pointer;
 }
 
+.logo {
+  @media screen and (max-width: 1160px) {
+    margin: 0 15px;
+  }
+}
+
 /*banner*/
 
 .banner {
@@ -128,6 +142,7 @@ header span {
   background-position: center;
   background-size: cover;
   position: relative;
+  height: 100vh;
 }
 .banner .container {
   height: 807px;
@@ -137,6 +152,10 @@ header span {
   flex-direction: column;
   position: inherit;
   z-index: 1;
+
+  @media screen and (max-width: 1160px) {
+    margin: 0 15px;
+  }
 }
 .banner::after {
   content: "";
@@ -158,6 +177,13 @@ header span {
   opacity: 100%;
   font-weight: 900;
   text-align: left;
+
+  @media screen and (max-width: 1160px) {
+    font-size: 4em;
+    margin: 0 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }
 .banner p {
   max-width: 1046px;
@@ -167,6 +193,11 @@ header span {
   color: var(--main-color);
   font-weight: bold;
   font-size: 16px;
+
+  @media screen and (max-width: 1160px) {
+    font-size: 1em;
+    width: 90vw;
+  }
 }
 
 .buttons .btn-1 {
@@ -180,6 +211,9 @@ header span {
   text-align: center;
   box-shadow: 0px 3px 6px #ff00004d;
   text-shadow: 0px 3px 6px #ffffff67;
+
+  @media screen and (max-width: 1160px) {
+  }
 }
 .buttons .btn-2 {
   color: var(--secondary-color);
@@ -206,6 +240,10 @@ header span {
   margin-top: 50px;
   display: flex;
   gap: 25px;
+
+  @media screen and (max-width: 1160px) {
+    flex-direction: column;
+  }
 }
 
 /* strzałka */
@@ -214,8 +252,12 @@ header span {
   box-shadow: 0px 3px 6px #ff00004d;
   padding: 15px;
   border-radius: 50%;
-  position: relative;
-  top: 185px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50px;
+  height: auto;
+
 }
 .icon-arrow img {
   height: 25px;
@@ -268,6 +310,11 @@ header span {
 .main_content_sections {
   display: flex;
   gap: 16px;
+
+  @media screen and (max-width: 1160px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* four section */
@@ -278,6 +325,7 @@ header span {
 .four_sections {
   padding: 30px;
   background-color: #28272c;
+  display: flex;
 }
 .four_sections img {
   height: 170px;
@@ -295,6 +343,10 @@ header span {
   font-size: 14px;
   font-family: var(--secondary-font);
   color: var(--light-text);
+
+  @media screen and (max-width: 1000px) {
+    width: 40%;
+  }
 }
 .four_sections-btn:hover {
   background-color: var(--secondary-color);
@@ -307,6 +359,10 @@ header span {
   gap: 45px;
   margin-bottom: 80px;
   margin-top: 80px;
+
+  @media screen and (max-width: 1160px) {
+    flex-direction: column;
+  }
 }
 .four_sections_content-1,
 .four_sections_content-2,
@@ -328,6 +384,7 @@ header span {
   position: relative;
   bottom: 25px;
 }
+
 input[type="text"],
 input[type="e-mail"],
 input[type="message"] {
@@ -359,6 +416,11 @@ input[type="message"] {
   justify-content: center;
   align-items: center;
   gap: 16px;
+
+  @media screen and (max-width: 1160px) {
+    flex-direction: column;
+    margin-top: 30px;
+  }
 }
 button[type="submit"] {
   background-color: var(--main-color);
@@ -421,6 +483,10 @@ footer {
   color: var(--main-color);
   font-size: 14px;
   font-weight: bold;
+
+  @media screen and (max-width: 1160px) {
+    height: 100%;
+  }
 }
 footer .container p {
   color: var(--secondary-color);
@@ -446,6 +512,11 @@ footer img {
   justify-content: flex-start;
   align-items: center;
   margin: 15px 50px;
+
+  @media screen and (max-width: 1160px) {
+    flex-direction: column;
+    margin: 0 0;
+  }
 }
 .footer_nav span {
   color: var(--light-text);
@@ -459,6 +530,10 @@ footer img {
 }
 .footer_nav_list-2 li {
   margin: 0 200px;
+
+  @media screen and (max-width: 1160px) {
+    margin: 0 0;
+  }
 }
 .footer_nav-list-1 li:hover,
 .footer_nav_list-2 li:hover {
