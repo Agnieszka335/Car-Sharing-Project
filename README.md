@@ -1,4 +1,4 @@
-# Car-Sharing-Project
+# Car Sharing 
 ## Overview
 
 This is my first project - a simple, responsive website for a car-sharing company. The project is designed to be easily adaptable for any car-sharing business.
@@ -7,7 +7,7 @@ This is my first project - a simple, responsive website for a car-sharing compan
 - Clean and responsive design
 - Informative homepage about the car-sharing service
 - Sections for services and contact details
-- User-friendly navigatiFully static and requires no installation
+- User-friendly navigation - fully static and requires no installation
 
 ## Technologies Used
 - HTML5 for the structure
@@ -19,4 +19,4 @@ This is my first project - a simple, responsive website for a car-sharing compan
   3. Explore the website and modify it as needed for business use.
 
 ## Screenshots
---to be added--
+![Car Sharing](./images/carsharing.jpg)
